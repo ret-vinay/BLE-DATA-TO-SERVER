@@ -1,0 +1,18 @@
+
+NEOWAY_CUSTOM_V01 0x102A2000 0x00032000
+{
+   PLATFORM_INIT_ROM 0xf03B0000
+   {
+      app_start.o(+RO,+FIRST)
+   }
+
+    MAIN_APP +0x0
+    {
+      * (+RO)
+    }
+
+    APP_RAM_RW +0x0000000
+    {
+  	 * (+RW, +ZI)
+    }
+}

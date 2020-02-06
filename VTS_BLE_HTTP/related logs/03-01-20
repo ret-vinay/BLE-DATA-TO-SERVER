@@ -1,0 +1,1549 @@
+
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 20, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.at+xiic=1
+
+.OK
+.
+.+GLTS: 20/01/03,11:46:46/GMT+5:30
+.
+.+PBREADY
+.at+xiic?
+
+.+XIIC:    1,10.89.126.136
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.SM_INIT_OK
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.{"Id":"03802115","TimeStamp":""}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"},{"Id":"03802115","TimeStamp":"10:49:59,19-12-19"}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"},{"Id":"03802115","TimeStamp":"10:49:59,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:10,19-12-19"}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"},{"Id":"03802115","TimeStamp":"10:49:59,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:10,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:24,19-12-19"}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"},{"Id":"03802115","TimeStamp":"10:49:59,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:10,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:24,19-12-19"},{"Id":"03802115","TimeStamp":"10:50:34,19-12-19"}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"},{"Id":"03802115","TimeStamp":"10:49:59,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:10,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:24,19-12-19"},{"Id":"03802115","TimeStamp":"10:50:34,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:41,19-12-19"}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"},{"Id":"03802115","TimeStamp":"10:49:59,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:10,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:24,19-12-19"},{"Id":"03802115","TimeStamp":"10:50:34,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:41,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:49,19-12-19"}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"},{"Id":"03802115","TimeStamp":"10:49:59,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:10,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:24,19-12-19"},{"Id":"03802115","TimeStamp":"10:50:34,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:41,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:49,19-12-19"},{"Id":"03802115","TimeStamp":"10:50:56,19-12-19"}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"},{"Id":"03802115","TimeStamp":"10:49:59,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:10,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:24,19-12-19"},{"Id":"03802115","TimeStamp":"10:50:34,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:41,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:49,19-12-19"},{"Id":"03802115","TimeStamp":"10:50:56,19-12-19"},{"Id":"11145390","TimeStamp":"10:51:4,19-12-19"}
+{"Id":"03802115","TimeStamp":""},{"Id":"11145401","TimeStamp":"10:49:52,19-12-19"},{"Id":"03802115","TimeStamp":"10:49:59,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:10,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:24,19-12-19"},{"Id":"03802115","TimeStamp":"10:50:34,19-12-19"},{"Id":"11145390","TimeStamp":"10:50:41,19-12-19"},{"Id":"11145401","TimeStamp":"10:50:49,19-12-19"},{"Id":"03802115","TimeStamp":"10:50:56,19-12-19"},{"Id":"11145390","TimeStamp":"10:51:4,19-12-19"},{"Id":"03802115","TimeStamp":"10:51:23,19-12-19"}
+
+.GPRS DISCONNECTION
+..
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 18, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.+GLTS: 20/01/03,12:09:31/GMT+5:30
+.
+.+PBREADY
+.at+xiic=1
+
+.OK
+.at+xiic?
+
+.+XIIC:    1,10.91.216.5
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.9240651,"lng":77.5131614},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.SM_INIT_OK
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.{"Id":"03802115","TimeStamp":"10:51:29,19-12-19"}
+
+.this card data is exists
+.{"Id":"03802115","TimeStamp":"10:51:29,19-12-19"}
+{"Id":"03802115","TimeStamp":"10:51:29,19-12-19"},{"Id":"03802115","TimeStamp":"
+03802115.11:12:59,1"}
+
+.this card data is exists
+.{"Id":"03802115","TimeStamp":"10:51:29,19-12-19"},{"Id":"03802115","TimeStamp":"
+03802115.11:12:59,1"}
+
+.this card data is exists
+.{"Id":"03802115","TimeStamp":"10:51:29,19-12-19"},{"Id":"03802115","TimeStamp":"
+03802115.11:12:59,1"}
+{"Id":"03802115","TimeStamp":"10:51:29,19-12-19"},{"Id":"03802115","TimeStamp":"
+03802115.11:12:59,1"},{"Id":"03802115","TimeStamp":"
+03802115.11:14:3,19"}
+.............................................................................................
+.
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 18, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.
+.+GLTS: 20/01/03,12:22:42/GMT+5:30
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.at+xiic=1
+
+.OK
+.
+.+PBREADY
+.at+xiic?
+
+.+XIIC:    1,10.19.183.65
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.SM_INIT_OK
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":""}
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":""},{"Id":"11145390","TimeStamp":"1:1:1,9-2-20"}
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":""},{"Id":"11145390","TimeStamp":"10:51:31,19-12-19"},{"Id":"03802115","TimeStamp":"10:51:36,19-12-19"}
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":""},{"Id":"11145390","TimeStamp":"10:51:31,19-12-19"},{"Id":"03802115","TimeStamp":"10:51:36,19-12-19"},{"Id":"11146940","TimeStamp":"
+11146940.10:52:4,19"}
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.............................................................................................
+..
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 22, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.+PBREADY
+.
+.+GLTS: 20/01/03,14:50:46/GMT+5:30
+.at+xiic=1
+
+.OK
+.at+xiic?
+
+.+XIIC:    1,10.19.110.121
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.9240651,"lng":77.5131614},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.SM_INIT_OK
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.
+.server_dat_buf = {"Id":"11145390","TimeStamp":"12:14:11,3-1-20"}
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145390","TimeStamp":"12:14:11,3-1-20"},{"Id":"11145401","TimeStamp":"12:17:15,3-1-20"}
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145390","TimeStamp":"12:14:11,3-1-20"},{"Id":"11145401","TimeStamp":"12:17:15,3-1-20"},{"Id":"03802115","TimeStamp":"12:17:24,3-1-20"}
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.GPRS DISCONNECTION
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+.
+.this card data is exists!!
+............................................................................................
+
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 17, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.+PBREADY
+.at+xiic=1
+
+.OK
+.
+.+GLTS: 20/01/03,16:00:24/GMT+5:30
+.at+xiic?
+
+.+XIIC:    1,10.90.163.71
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.SM_INIT_OK
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.server_dat_buf = {"Id":"11146940","TimeStamp":"13:20:5,3-1-20"}
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 1
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 1
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11146940","TimeStamp":"13:20:5,3-1-20"},{"Id":"11145390","TimeStamp":"13:27:2,3-1-20"}
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 2
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 2
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11146940","TimeStamp":"13:20:5,3-1-20"},{"Id":"11145390","TimeStamp":"13:27:2,3-1-20"},{"Id":"03802115","TimeStamp":"13:27:20,3-1-20"}
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 3
+.{ "data":[ {"Id":"11146940","TimeStamp":"13:20:5,3-1-20"},{"Id":"11145390","TimeStamp":"13:27:2,3-1-20"},{"Id":"03802115","TimeStamp":"13:27:20,3-1-20"} ] }
+
+{ "data":[ {"Id":"11146940","TimeStamp":"13:20:5,3-1-20"},{"Id":"11145390","TimeStamp":"13:27:2,3-1-20"},{"Id":"03802115","TimeStamp":"13:27:20,3-1-20"} ] }
+AT+HTTPACTION=2,157,2
+
+.>
+.OK
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+............................................................................................
+
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 21, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.+GLTS: 20/01/03,16:44:37/GMT+5:30
+.
+.+PBREADY
+.at+xiic=1
+
+.OK
+.at+xiic?
+
+.+XIIC:    1,100.109.171.193
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.9240651,"lng":77.5131614},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.SM_INIT_OK
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"}
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 1
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 1
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"}
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 2
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"},{"Id":"03802115","TimeStamp":"14:11:25,3-1-20"}
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 3
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 3
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"},{"Id":"03802115","TimeStamp":"14:11:25,3-1-20"},{"Id":"11146940","TimeStamp":"14:11:32,3-1-20"}
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 4
+.{ "data":[ {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"},{"Id":"03802115","TimeStamp":"14:11:25,3-1-20"},{"Id":"11146940","TimeStamp":"14:11:32,3-1-20"} ] }
+
+{ "data":[ {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"},{"Id":"03802115","TimeStamp":"14:11:25,3-1-20"},{"Id":"11146940","TimeStamp":"14:11:32,3-1-20"} ] }
+AT+HTTPACTION=2,206,2
+
+.>
+.OK
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+..............................................................................................
+
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 21, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.+GLTS: 20/01/03,16:44:37/GMT+5:30
+.
+.+PBREADY
+.at+xiic=1
+
+.OK
+.at+xiic?
+
+.+XIIC:    1,100.109.171.193
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.9240651,"lng":77.5131614},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.SM_INIT_OK
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"}
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 1
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 1
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"}
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 2
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"},{"Id":"03802115","TimeStamp":"14:11:25,3-1-20"}
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 3
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 3
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"},{"Id":"03802115","TimeStamp":"14:11:25,3-1-20"},{"Id":"11146940","TimeStamp":"14:11:32,3-1-20"}
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 4
+.{ "data":[ {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"},{"Id":"03802115","TimeStamp":"14:11:25,3-1-20"},{"Id":"11146940","TimeStamp":"14:11:32,3-1-20"} ] }
+
+{ "data":[ {"Id":"11145401","TimeStamp":"14:8:10,3-1-20"},{"Id":"11145390","TimeStamp":"14:11:10,3-1-20"},{"Id":"03802115","TimeStamp":"14:11:25,3-1-20"},{"Id":"11146940","TimeStamp":"14:11:32,3-1-20"} ] }
+AT+HTTPACTION=2,206,2
+
+.>
+.OK
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+.......
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 19, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.+PBREADY
+.
+.+GLTS: 20/01/03,16:49:13/GMT+5:30
+.at+xiic=1
+
+.OK
+.at+xiic?
+
+.+XIIC:    1,10.88.153.193
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.9240651,"lng":77.5131614},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.SM_INIT_OK
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.server_dat_buf = {"Id":"11146940","TimeStamp":"14:11:38,3-1-20"}
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 1
+.AT+HTTPCLOSE
+
+.OK
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11146940","TimeStamp":"14:11:38,3-1-20"},{"Id":"03802115","TimeStamp":"14:15:37,3-1-20"}
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 2
+.
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11146940","TimeStamp":"14:11:38,3-1-20"},{"Id":"03802115","TimeStamp":"14:15:37,3-1-20"},{"Id":"11145390","TimeStamp":"14:15:42,3-1-20"}
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.this card data is not exists & data is appending...
+.
+.server_dat_buf = {"Id":"11146940","TimeStamp":"14:11:38,3-1-20"},{"Id":"03802115","TimeStamp":"14:15:37,3-1-20"},{"Id":"11145390","TimeStamp":"14:15:42,3-1-20"},{"Id":"11145401","TimeStamp":"14:15:45,3-1-20"}
+.
+.OK
+.
+.RF_Id_count = 4
+.{ "data":[ {"Id":"11146940","TimeStamp":"14:11:38,3-1-20"},{"Id":"03802115","TimeStamp":"14:15:37,3-1-20"},{"Id":"11145390","TimeStamp":"14:15:42,3-1-20"},{"Id":"11145401","TimeStamp":"14:15:45,3-1-20"} ] }
+
+{ "data":[ {"Id":"11146940","TimeStamp":"14:11:38,3-1-20"},{"Id":"03802115","TimeStamp":"14:15:37,3-1-20"},{"Id":"11145390","TimeStamp":"14:15:42,3-1-20"},{"Id":"11145401","TimeStamp":"14:15:45,3-1-20"} ] }
+AT+HTTPACTION=2,207,2
+
+.>
+.OK
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+..

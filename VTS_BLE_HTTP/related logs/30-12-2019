@@ -1,0 +1,3543 @@
+.
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 18, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.+PBREADY
+.
+.+GLTS: 19/12/30,13:24:32/GMT+5:30
+.at+xiic=1
+
+.OK
+.at+xiic?
+
+.+XIIC:    1,10.90.215.48
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.END
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.{ "data":[ { "_id":"11145390", "scan_time_stamp":"11:1:0,30-12-19" },{ "_id":"03802115", "scan_time_stamp":"11:1:8,30-12-19" }, { "_id":"11145390", "scan_time_stamp":"11:1:13,30-12-19" } ] }
+AT+HTTPACTION=2,191,2
+
+.>
+.OK
+.AT+HTTPCLOSE
+
+.OK
+.
+.GPRS DISCONNECTION
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+....................................................................................
+....................................................................................
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.MODEM:STARTUP
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_ATSendCmd
+.at
+
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+csq
+
+.+CSQ: 20, 99
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_ATSendCmd
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+cscs="ucs2"
+
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+cnmi=2,2,0,0,0
+
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.+PBREADY
+.
+.+GLTS: 19/12/30,15:19:26/GMT+5:30
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+xiic=1
+
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+xiic?
+
+.+XIIC:    1,10.90.201.120
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+glts=1
+
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.at+cipgsmloc
+
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.+CIPGSMLOC: {"location":{"lat":12.9240651,"lng":77.5131614},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.END
+
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.AT+HTTPSETUP
+
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.RF_Id_count = 0
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Calling Neo_ATSendCmd
+.AT+HTTPCLOSE
+
+.OK
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+..............................................................................................
+..............................................................................................
+
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.MODEM:STARTUP
+.
+.Neoway_UserTask1 running
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at
+
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+csq
+
+.+CSQ: 20, 99
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+cscs="ucs2"
+
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+cnmi=2,2,0,0,0
+
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.+GLTS: 19/12/30,15:26:02/GMT+5:30
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.+PBREADY
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+xiic=1
+
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+xiic?
+
+.+XIIC:    1,10.88.74.121
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+glts=1
+
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.at+cipgsmloc
+
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.END
+
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.AT+HTTPSETUP
+
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.RF_Id_count = 0
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendCmd
+.AT+HTTPCLOSE
+
+.OK
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_ATSendOK
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+.
+.Neoway_UserTask1 running
+.
+.Calling Neo_SendNextAT
+.
+.Neoway_UserTask3 running
+.
+.Neoway_UserTask2 running
+.
+.calling Read_uart_data function
+...............................................................................
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.MODEM:STARTUP
+.
+.calling Read_uart_data function
+.at
+
+.OK
+.
+.calling Read_uart_data function
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.
+.calling Read_uart_data function
+.at+csq
+
+.+CSQ: 19, 99
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.calling Read_uart_data function
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.calling Read_uart_data function
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.calling Read_uart_data function
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.
+.calling Read_uart_data function
+.at+cscs="ucs2"
+
+.OK
+.
+.calling Read_uart_data function
+.at+cnmi=2,2,0,0,0
+
+.OK
+.
+.+GLTS: 19/12/30,15:36:46/GMT+5:30
+.
+.calling Read_uart_data function
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.at+xiic=1
+
+.OK
+.
+.calling Read_uart_data function
+.
+.+PBREADY
+.at+xiic?
+
+.+XIIC:    1,10.88.14.205
+.OK
+.
+.calling Read_uart_data function
+.at+glts=1
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.at+cipgsmloc
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.calling Read_uart_data function
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.END
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPSETUP
+
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.calling Read_uart_data function
+.AT+HTTPCLOSE
+
+.OK
+.
+.calling Read_uart_data function
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.calling Read_uart_data function
+.AT+HTTPPARA=port,8000
+
+.OK
+............................................................................................
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.MODEM:STARTUP
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+csq
+
+.+CSQ: 18, 99
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+cscs="ucs2"
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+cnmi=2,2,0,0,0
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.+GLTS: 19/12/30,15:52:38/GMT+5:30
+.at+xiic=1
+
+.OK
+.
+.+PBREADY
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+xiic?
+
+.+XIIC:    1,10.88.35.17
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+glts=1
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.at+cipgsmloc
+
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.+CIPGSMLOC: {"location":{"lat":12.9240651,"lng":77.5131614},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.END
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPSETUP
+
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPCLOSE
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPSETUP
+
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.ERROR
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPCLOSE
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPSETUP
+
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.OK
+.
+.RF_Id_count = 0
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPCLOSE
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.15/53/13: 
+11145401.10:55:14,19-12-19.{"Id":"11145401","TimeStamp":"10:55:14,19-12-19"}
+AT+HTTPSETUP
+
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.OK
+.
+.RF_Id_count = 1
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPCLOSE
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPSETUP
+
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.OK
+.
+.RF_Id_count = 1
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPCLOSE
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.15/53/22: 
+11145390.11:3:47,19-12-19.{"Id":"11145390","TimeStamp":"11:3:47,19-12-19"}
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 2
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPCLOSE
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPSETUP
+
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.OK
+.
+.RF_Id_count = 2
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPCLOSE
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=port,8000
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPSETUP
+
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.OK
+.
+.RF_Id_count = 2
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPCLOSE
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.15/53/37: 
+11145401.11:4:2,19-12-19.{"Id":"11145401","TimeStamp":"11:4:2,19-12-19"}
+AT+HTTPPARA=port,8000
+
+.OK
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPSETUP
+
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.OK
+.
+.RF_Id_count = 3
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.AT+HTTPACTION=2,0,2
+
+.+HTTPACTION: LENGTH ERROR
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+.
+.GPS_Data_extraction_Not_Complete
+.
+.Same RF_id
+..///////////////////////////////////////////////////////////////////////////////////////////
+.
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 18, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.+GLTS: 19/12/30,18:11:19/GMT+5:30
+.at+xiic=1
+
+.OK
+.
+.+PBREADY
+.at+xiic?
+
+.+XIIC:    1,10.88.167.141
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.END
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.{"Id":"11145390","TimeStamp":"10:49:20,19-12-19"}
+
+{"Id":"03802115","TimeStamp":"10:49:31,19-12-19"}
+
+{"Id":"11145401","TimeStamp":"10:49:40,19-12-19"}
+
+{"Id":"11145390","TimeStamp":"10:49:45,19-12-19"}
+
+{"Id":"11145401","TimeStamp":"10:49:53,19-12-19"}
+
+{"Id":"03802115","TimeStamp":"10:50:0,19-12-19"}
+
+..............................................................................................
+.
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 20, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.
+.+PBREADY
+.at+xiic=1
+
+.OK
+.
+.+GLTS: 19/12/30,18:27:46/GMT+5:30
+.at+xiic?
+
+.+XIIC:    1,10.89.238.140
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.END
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.11145401.10:50:4,19-12-19
+11145401
+
+.length=8
+
+.10:50:4,19-12-19
+
+.length=16
+
+.{"Id":"11145401","TimeStamp":"10:50:4,19-12-19"}
+
+.first_Time_id
+.
+.current RFid = 11145401
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.
+AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 1
+.AT+HTTPCLOSE
+
+.OK
+.03802115.11:5:14,19-12-19
+03802115
+
+.length=8
+
+.11:5:14,19-12-19
+
+.length=16
+
+.{"Id":"03802115","TimeStamp":"11:5:14,19-12-19"}
+
+.next_Time_id
+.
+.current RFid = 03802115
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.
+11145390.11:5:29,19-12-19
+11145390
+
+.length=8
+
+.11:5:29,19-12-19
+
+.length=16
+
+.{"Id":"11145390","TimeStamp":"11:5:29,19-12-19"}
+
+.next_Time_id
+.
+.current RFid = 11145390
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.

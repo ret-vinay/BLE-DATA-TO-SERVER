@@ -1,0 +1,400 @@
+.
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 19, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.at+cscs="ucs2"
+
+.OK
+.at+cnmi=2,2,0,0,0
+
+.OK
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.at+xiic=1
+
+.OK
+.
+.+PBREADY
+.
+.+GLTS: 19/12/31,11:24:01/GMT+5:30
+.at+xiic?
+
+.+XIIC:    1,100.71.203.29
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.END
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.11145390.
+11145390
+
+.length=8
+
+.
+
+.length=0
+
+.{"Id":"11145390","TimeStamp":""}
+
+.first_Time_id
+.
+.current RFid = 11145390
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.
+.server_dat_buf length is not equal to 0
+..........................................................................................
+.
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 21, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+cscs="ucs2"
+
+.OK
+.
+.+GLTS: 19/12/31,12:07:39/GMT+5:30
+.at+cnmi=2,2,0,0,0
+
+.OK
+.
+.+PBREADY
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.at+xiic=1
+
+.OK
+.at+xiic?
+
+.+XIIC:    1,100.72.227.185
+.OK
+.at+glts=1
+
+.OK
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.END
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 0
+.AT+HTTPCLOSE
+
+.OK
+.11145390.11:27:56,19-12-19
+11145390
+
+.length=8
+
+.11:27:56,19-12-19
+
+.length=17
+
+.{"Id":"11145390","TimeStamp":"11:27:56,19-12-19"}
+
+.first_Time_id
+.
+.current RFid = 11145390
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.
+.server_dat_buf length is equal to 0
+.
+.loc_ble = {"Id":"11145390","TimeStamp":"11:27:56,19-12-19"}
+.
+.server_dat_buf = {"Id":"11145390","TimeStamp":"11:27:56,19-12-19"}
+.03802115.11:34:2,19-12-19
+03802115
+
+.length=8
+
+.11:34:2,19-12-19
+
+.length=16
+
+.{"Id":"03802115","TimeStamp":"11:34:2,19-12-19"}
+
+.next_Time_id
+.
+.current RFid = 03802115
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.
+.server_dat_buf length is not equal to 0
+.
+.loc_ble = {"Id":"03802115","TimeStamp":"11:34:2,19-12-19"}
+.
+.server_dat_buf = {"Id":"11145390","TimeStamp":"11:27:56,19-12-19"},{"Id":"03802115","TimeStamp":"11:34:2,19-12-19"}
+.11145401.11:34:12,19-12-19
+11145401
+
+.length=8
+
+.11:34:12,19-12-19
+
+.length=17
+
+.{"Id":"11145401","TimeStamp":"11:34:12,19-12-19"}
+
+.next_Time_id
+.
+.current RFid = 11145401
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.
+.server_dat_buf length is not equal to 0
+.
+.loc_ble = {"Id":"11145401","TimeStamp":"11:34:12,19-12-19"}
+.
+.server_dat_buf = {"Id":"11145390","TimeStamp":"11:27:56,19-12-19"},{"Id":"03802115","TimeStamp":"11:34:2,19-12-19"},{"Id":"11145401","TimeStamp":"11:34:12,19-12-19"}
+...............................................................................................................................................................
+.
+.MODEM:STARTUP
+.at
+
+.OK
+.at+csq
+
+.+CSQ: 99, 99
+.OK
+.at+csq
+
+.+CSQ: 20, 99
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.at+creg?
+
+.+CREG: 0,2
+.OK
+.
+.+GLTS: 00/00/00,00:00:00/GMT000
+.at+creg?
+
+.+CREG: 0,1
+.OK
+.at+cscs="ucs2"
+
+.OK
+.
+.+GLTS: 19/12/31,12:30:46/GMT+5:30
+.
+.+PBREADY
+.at+cnmi=2,2,0,0,0
+
+.OK
+.11145401.11:34:18,19-12-19
+11145401
+
+.length=8
+
+.11:34:18,19-12-19
+
+.length=17
+
+.{"Id":"11145401","TimeStamp":"11:34:18,19-12-19"}
+
+.first_Time_id
+.
+.current RFid = 11145401
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.
+.server_dat_buf length is equal to 0
+.
+.loc_ble = {"Id":"11145401","TimeStamp":"11:34:18,19-12-19"}
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"11:34:18,19-12-19"}
+.at+cgsn
+
+.+CGSN: 865933031558519
+.OK
+.at+xiic=1
+
+.OK
+.03802115.11:56:1,19-12-19
+03802115
+
+.length=8
+
+.11:56:1,19-12-19
+
+.length=16
+
+.{"Id":"03802115","TimeStamp":"11:56:1,19-12-19"}
+
+.next_Time_id
+.
+.current RFid = 03802115
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.
+.server_dat_buf length is not equal to 0
+.
+.loc_ble = {"Id":"03802115","TimeStamp":"11:56:1,19-12-19"}
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"11:34:18,19-12-19"},{"Id":"03802115","TimeStamp":"11:56:1,19-12-19"}
+.at+xiic?
+
+.+XIIC:    1,10.89.21.53
+.OK
+.at+glts=1
+
+.OK
+.11145390.11:56:3,19-12-19
+11145390
+
+.length=8
+
+.11:56:3,19-12-19
+
+.length=16
+
+.{"Id":"11145390","TimeStamp":"11:56:3,19-12-19"}
+
+.next_Time_id
+.
+.current RFid = 11145390
+.
+.Previous_RFid = 
+.
+.called push_Data function
+.
+.server_dat_buf length is not equal to 0
+.
+.loc_ble = {"Id":"11145390","TimeStamp":"11:56:3,19-12-19"}
+.
+.server_dat_buf = {"Id":"11145401","TimeStamp":"11:34:18,19-12-19"},{"Id":"03802115","TimeStamp":"11:56:1,19-12-19"},{"Id":"11145390","TimeStamp":"11:56:3,19-12-19"}
+.at+cipgsmloc
+
+.OK
+.
+.+CIPGSMLOC: {"location":{"lat":12.930972,"lng":77.512518},"accuracy":550.0}
+.+CIPGSMLOC: OK
+.END
+AT+HTTPPARA=url,103.5.134.141/api/update_scanned_houses
+
+.OK
+.AT+HTTPPARA=port,8000
+
+.OK
+.AT+HTTPSETUP
+
+.OK
+.
+.RF_Id_count = 3
+.AT+HTTPACTION=2,0,2
+
+.+HTTPACTION: LENGTH ERROR
+.AT+HTTPACTION=2,0,2
+
+.+HTTPACTION: LENGTH ERROR
+.AT+HTTPACTION=2,0,2
+
+.+HTTPACTION: LENGTH ERROR
+.AT+HTTPACTION=2,0,2
+
+.+HTTPACTION: LENGTH ERROR
+.AT+HTTPACTION=2,0,2
+
+.+HTTPACTION: LENGTH ERROR
+.AT+HTTPACTION=2,0,2
+
+.+HTTPACTION: LENGTH ERROR
+..
+
+

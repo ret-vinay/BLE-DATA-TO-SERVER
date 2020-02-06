@@ -1,0 +1,387 @@
+;Building Log 
+"..\neowayinc\neoway_analysis_sms.h", line 104: Warning:  #1295-D: Deprecated declaration Neoway_SOS_Gpio_Listening_Mode - give arg types
+  void Neoway_SOS_Gpio_Listening_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 106: Warning:  #1295-D: Deprecated declaration Neoway_Blackout_Listening_Mode - give arg types
+  void Neoway_Blackout_Listening_Mode();	/*Process the alarm for oil and electricity cutoff alarm*/
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 107: Warning:  #1295-D: Deprecated declaration Neoway_Fire_Switch_Listening_Mode - give arg types
+  void Neoway_Fire_Switch_Listening_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 108: Warning:  #1295-D: Deprecated declaration Neoway_Deal_SOS_Mode - give arg types
+  void Neoway_Deal_SOS_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 109: Warning:  #1295-D: Deprecated declaration Neoway_DealLPDMode - give arg types
+  void Neoway_DealLPDMode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 110: Warning:  #1295-D: Deprecated declaration Neoway_DealJXMode - give arg types
+  void Neoway_DealJXMode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 111: Warning:  #1295-D: Deprecated declaration Neoway_Deal_Blackout_Mode - give arg types
+  void Neoway_Deal_Blackout_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 113: Warning:  #1295-D: Deprecated declaration Neoway_ReportSOSAlarm - give arg types
+  void Neoway_ReportSOSAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 115: Warning:  #1295-D: Deprecated declaration Neoway_ReportStandbyLDPAlarm - give arg types
+  void Neoway_ReportStandbyLDPAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 117: Warning:  #1295-D: Deprecated declaration Neoway_ReportLDPAlarm - give arg types
+  void Neoway_ReportLDPAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 119: Warning:  #1295-D: Deprecated declaration Neoway_ReportJXAlarm - give arg types
+  void Neoway_ReportJXAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 121: Warning:  #1295-D: Deprecated declaration Neoway_ReportOUTAlarm - give arg types
+  void Neoway_ReportOUTAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 123: Warning:  #1295-D: Deprecated declaration Neoway_ReportBlackoutAlarm - give arg types
+  void Neoway_ReportBlackoutAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 136: Warning:  #1295-D: Deprecated declaration Neoway_RepParamByGPRS - give arg types
+  void Neoway_RepParamByGPRS();
+       ^
+"example_helloWorld.c", line 23: Warning:  #1295-D: Deprecated declaration Read_uart_data - give arg types
+  void Read_uart_data();
+       ^
+"example_helloWorld.c", line 161: Warning:  #111-D: statement is unreachable
+  			break;
+  			^
+"example_helloWorld.c", line 228: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  	memcpy(Loc_Uart_buf1,Uart_buf1,strlen(Uart_buf1));
+  	                                      ^
+"example_helloWorld.c", line 234: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  		memcpy(Loc_Uart_buf2,Uart_buf2,strlen(Uart_buf2));
+  		                                      ^
+"example_helloWorld.c", line 240: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  	if(strncmp(Loc_Uart_buf3,Uart_buf3,10) !=0) // && (BLE_Data_extr_Complet == 0))
+  	           ^
+"example_helloWorld.c", line 240: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  	if(strncmp(Loc_Uart_buf3,Uart_buf3,10) !=0) // && (BLE_Data_extr_Complet == 0))
+  	                         ^
+"example_helloWorld.c", line 246: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+  		extracting_ble(Loc_Uart_buf3);
+  		               ^
+example_helloWorld.c: 21 warnings, 0 errors
+"..\neowayinc\neoway_analysis_sms.h", line 104: Warning:  #1295-D: Deprecated declaration Neoway_SOS_Gpio_Listening_Mode - give arg types
+  void Neoway_SOS_Gpio_Listening_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 106: Warning:  #1295-D: Deprecated declaration Neoway_Blackout_Listening_Mode - give arg types
+  void Neoway_Blackout_Listening_Mode();	/*Process the alarm for oil and electricity cutoff alarm*/
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 107: Warning:  #1295-D: Deprecated declaration Neoway_Fire_Switch_Listening_Mode - give arg types
+  void Neoway_Fire_Switch_Listening_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 108: Warning:  #1295-D: Deprecated declaration Neoway_Deal_SOS_Mode - give arg types
+  void Neoway_Deal_SOS_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 109: Warning:  #1295-D: Deprecated declaration Neoway_DealLPDMode - give arg types
+  void Neoway_DealLPDMode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 110: Warning:  #1295-D: Deprecated declaration Neoway_DealJXMode - give arg types
+  void Neoway_DealJXMode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 111: Warning:  #1295-D: Deprecated declaration Neoway_Deal_Blackout_Mode - give arg types
+  void Neoway_Deal_Blackout_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 113: Warning:  #1295-D: Deprecated declaration Neoway_ReportSOSAlarm - give arg types
+  void Neoway_ReportSOSAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 115: Warning:  #1295-D: Deprecated declaration Neoway_ReportStandbyLDPAlarm - give arg types
+  void Neoway_ReportStandbyLDPAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 117: Warning:  #1295-D: Deprecated declaration Neoway_ReportLDPAlarm - give arg types
+  void Neoway_ReportLDPAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 119: Warning:  #1295-D: Deprecated declaration Neoway_ReportJXAlarm - give arg types
+  void Neoway_ReportJXAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 121: Warning:  #1295-D: Deprecated declaration Neoway_ReportOUTAlarm - give arg types
+  void Neoway_ReportOUTAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 123: Warning:  #1295-D: Deprecated declaration Neoway_ReportBlackoutAlarm - give arg types
+  void Neoway_ReportBlackoutAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 136: Warning:  #1295-D: Deprecated declaration Neoway_RepParamByGPRS - give arg types
+  void Neoway_RepParamByGPRS();
+       ^
+"neoway_message.c", line 125: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "U8 *"
+  				Neo_SearchAtResponse(&gNeo_at_response_parser.buffer[gNeo_at_response_parser.start_position],gNeo_at_response_parser.column-1, mod_id);
+  				                     ^
+"neoway_message.c", line 197: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "S8 *"
+  		strncpy(Module_IMEI_Number,&Buffaddr[7],15);// strlen(Buffaddr)-9);	
+  		        ^
+"neoway_message.c", line 197: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  		strncpy(Module_IMEI_Number,&Buffaddr[7],15);// strlen(Buffaddr)-9);	
+  		                           ^
+"neoway_message.c", line 282: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "char *"
+  				Neoway_VirtualUartSend(NEOWAY_MOD_USER1,gNeo_at_info.send_str,gNeo_at_info.str_length);
+  				                                        ^
+"neoway_message.c", line 288: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "char *"
+  				Neoway_VirtualUartSend(NEOWAY_MOD_USER1,gNeo_at_info.send_str,gNeo_at_info.str_length);
+  				                                        ^
+"neoway_message.c", line 294: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "char *"
+  				Neoway_VirtualUartSend(NEOWAY_MOD_USER1,gNeo_at_info.send_str,gNeo_at_info.str_length);
+  				                                        ^
+"neoway_message.c", line 300: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "char *"
+  				Neoway_VirtualUartSend(NEOWAY_MOD_USER1,gNeo_at_info.send_str,gNeo_at_info.str_length);
+  				                                        ^
+"neoway_message.c", line 321: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "char *"
+  		Neoway_VirtualUartSend(NEOWAY_MOD_USER1,gNeo_at_info.send_data,gNeo_at_info.data_length);//
+  		                                        ^
+"neoway_message.c", line 680: Warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const S8 *"
+  				Neo_SendAT(CMD_HTTP, Server_URL, strlen(Server_URL), NULL, 0);				
+  				                                        ^
+"neoway_message.c", line 680: Warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "S8 *"
+  				Neo_SendAT(CMD_HTTP, Server_URL, strlen(Server_URL), NULL, 0);				
+  				                     ^
+"neoway_message.c", line 693: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+  				get_push_Data(server_data);
+  				              ^
+"neoway_message.c", line 695: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  				memcpy(data_to_server, server_data, strlen(server_data));
+  				                                           ^
+"neoway_message.c", line 696: Warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const S8 *"
+  				sprintf(HttpAction_Buff,"AT+HTTPACTION=2,%d,2\r",strlen(data_to_server)); 
+  				                                                        ^
+"neoway_message.c", line 696: Warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "S8 *"
+  				sprintf(HttpAction_Buff,"AT+HTTPACTION=2,%d,2\r",strlen(data_to_server)); 
+  				        ^
+"neoway_message.c", line 697: Warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const S8 *"
+  				Neo_SendAT(CMD_HTTP,HttpAction_Buff,strlen(HttpAction_Buff), data_to_server, strlen(data_to_server));
+  				                                           ^
+"neoway_message.c", line 697: Warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const S8 *"
+  				Neo_SendAT(CMD_HTTP,HttpAction_Buff,strlen(HttpAction_Buff), data_to_server, strlen(data_to_server));
+  				                                                                                    ^
+"neoway_message.c", line 697: Warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "S8 *"
+  				Neo_SendAT(CMD_HTTP,HttpAction_Buff,strlen(HttpAction_Buff), data_to_server, strlen(data_to_server));
+  				                    ^
+"neoway_message.c", line 697: Warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "S8 *"
+  				Neo_SendAT(CMD_HTTP,HttpAction_Buff,strlen(HttpAction_Buff), data_to_server, strlen(data_to_server));
+  				                                                             ^
+"neoway_message.c", line 698: Warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const S8 *"
+  				Neoway_UartSend(NEOWAY_UART_PORT_1,data_to_server,strlen(data_to_server));
+  				                                                         ^
+neoway_message.c: 33 warnings, 0 errors
+"..\neowayinc\neoway_analysis_sms.h", line 104: Warning:  #1295-D: Deprecated declaration Neoway_SOS_Gpio_Listening_Mode - give arg types
+  void Neoway_SOS_Gpio_Listening_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 106: Warning:  #1295-D: Deprecated declaration Neoway_Blackout_Listening_Mode - give arg types
+  void Neoway_Blackout_Listening_Mode();	/*Process the alarm for oil and electricity cutoff alarm*/
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 107: Warning:  #1295-D: Deprecated declaration Neoway_Fire_Switch_Listening_Mode - give arg types
+  void Neoway_Fire_Switch_Listening_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 108: Warning:  #1295-D: Deprecated declaration Neoway_Deal_SOS_Mode - give arg types
+  void Neoway_Deal_SOS_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 109: Warning:  #1295-D: Deprecated declaration Neoway_DealLPDMode - give arg types
+  void Neoway_DealLPDMode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 110: Warning:  #1295-D: Deprecated declaration Neoway_DealJXMode - give arg types
+  void Neoway_DealJXMode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 111: Warning:  #1295-D: Deprecated declaration Neoway_Deal_Blackout_Mode - give arg types
+  void Neoway_Deal_Blackout_Mode();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 113: Warning:  #1295-D: Deprecated declaration Neoway_ReportSOSAlarm - give arg types
+  void Neoway_ReportSOSAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 115: Warning:  #1295-D: Deprecated declaration Neoway_ReportStandbyLDPAlarm - give arg types
+  void Neoway_ReportStandbyLDPAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 117: Warning:  #1295-D: Deprecated declaration Neoway_ReportLDPAlarm - give arg types
+  void Neoway_ReportLDPAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 119: Warning:  #1295-D: Deprecated declaration Neoway_ReportJXAlarm - give arg types
+  void Neoway_ReportJXAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 121: Warning:  #1295-D: Deprecated declaration Neoway_ReportOUTAlarm - give arg types
+  void Neoway_ReportOUTAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 123: Warning:  #1295-D: Deprecated declaration Neoway_ReportBlackoutAlarm - give arg types
+  void Neoway_ReportBlackoutAlarm();
+       ^
+"..\neowayinc\neoway_analysis_sms.h", line 136: Warning:  #1295-D: Deprecated declaration Neoway_RepParamByGPRS - give arg types
+  void Neoway_RepParamByGPRS();
+       ^
+"neoway_analysis_sms.c", line 390: Warning:  #188-D: enumerated type mixed with another type
+  		Neoway_UartSend(0, "DCS 08 invalid\r\n", 16);
+  		                ^
+"neoway_analysis_sms.c", line 401: Warning:  #188-D: enumerated type mixed with another type
+  		Neoway_UartSend(0, "DCS 08 invalid\r\n", 16);
+  		                ^
+"neoway_analysis_sms.c", line 426: Warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const S8 *"
+  	strcpy(p_dst, p_src);
+  	              ^
+"neoway_analysis_sms.c", line 475: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 5)
+  			                   ^
+"neoway_analysis_sms.c", line 481: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 7)
+  			                   ^
+"neoway_analysis_sms.c", line 487: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 6)
+  			                   ^
+"neoway_analysis_sms.c", line 493: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 6)
+  			                   ^
+"neoway_analysis_sms.c", line 499: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 8)
+  			                   ^
+"neoway_analysis_sms.c", line 505: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 4)
+  			                   ^
+"neoway_analysis_sms.c", line 511: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 4)
+  			                   ^
+"neoway_analysis_sms.c", line 517: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 5)
+  			                   ^
+"neoway_analysis_sms.c", line 523: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 5)
+  			                   ^
+"neoway_analysis_sms.c", line 529: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 7)
+  			                   ^
+"neoway_analysis_sms.c", line 535: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 6)
+  			                   ^
+"neoway_analysis_sms.c", line 541: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 6)
+  			                   ^
+"neoway_analysis_sms.c", line 547: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 3)
+  			                   ^
+"neoway_analysis_sms.c", line 553: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 3)
+  			                   ^
+"neoway_analysis_sms.c", line 559: Warning:  #167-D: argument of type "S8 *" is incompatible with parameter of type "const char *"
+  			if (!GetFlagNumber(p_ud, &n_count) || n_count != 6)
+  			                   ^
+"neoway_analysis_sms.c", line 567: Warning:  #940-D: missing return statement at end of non-void function "Neoway_GetCustomCmd"
+  }
+  ^
+"neoway_analysis_sms.c", line 756: Warning:  #111-D: statement is unreachable
+  	p_ud++;
+  	^
+"neoway_analysis_sms.c", line 76: Warning: C3017W: c_left may be used before being set
+	U8 		c_left;	//Data remained by last byte
+      ^
+"neoway_analysis_sms.c", line 343: Warning: C3017W: n_dst_length may be used before being set
+	int n_dst_length;			//the length of the target PDU string
+     ^
+neoway_analysis_sms.c: 36 warnings, 0 errors
+"user.c", line 32: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "S8 *"
+  	sprintf(time_stamp,"%d/%d/%d: %s",rtc_time.rtc_hour,rtc_time.rtc_min,rtc_time.rtc_sec,buffer_addr);
+  	        ^
+"user.c", line 33: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  	Neoway_UartSend(NEOWAY_UART_PORT_1,time_stamp,strlen(time_stamp));		
+  	                                                     ^
+"user.c", line 57: Warning:  #260-D: explicit type is missing ("int" assumed)
+  	static First_Time_Calculation=0;
+  	       ^
+"user.c", line 100: Warning:  #940-D: missing return statement at end of non-void function "GET_BAT_VOLTAGE"
+  }
+  ^
+user.c: 4 warnings, 0 errors
+"ble.c", line 57: Warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "U8 *"
+  	ptr=loc_ble;
+  	   ^
+"ble.c", line 80: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  		if( strlen(timestamp) > 11 ){
+  		           ^
+"ble.c", line 81: Warning:  #192-D: unrecognized character escape sequence
+  			sprintf(ble_data1,"\{\"Id\":\"%s\",\"TimeStamp\":\"%s\"\}",RFid,timestamp);
+  			                   ^
+"ble.c", line 81: Warning:  #192-D: unrecognized character escape sequence
+  			sprintf(ble_data1,"\{\"Id\":\"%s\",\"TimeStamp\":\"%s\"\}",RFid,timestamp);
+  			                                                       ^
+"ble.c", line 81: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "S8 *"
+  			sprintf(ble_data1,"\{\"Id\":\"%s\",\"TimeStamp\":\"%s\"\}",RFid,timestamp);
+  			        ^
+"ble.c", line 86: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "S8 *"
+  			sprintf(timestamp,"%d:%d:%d,%d-%d-%d",rtc_time.rtc_hour,rtc_time.rtc_min,rtc_time.rtc_sec,rtc_time.rtc_day,rtc_time.rtc_mon,rtc_time.rtc_year);
+  			        ^
+"ble.c", line 87: Warning:  #192-D: unrecognized character escape sequence
+  			sprintf(ble_data1,"\{\"Id\":\"%s\",\"TimeStamp\":\"%s\"\}",RFid,timestamp);
+  			                   ^
+"ble.c", line 87: Warning:  #192-D: unrecognized character escape sequence
+  			sprintf(ble_data1,"\{\"Id\":\"%s\",\"TimeStamp\":\"%s\"\}",RFid,timestamp);
+  			                                                       ^
+"ble.c", line 87: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "S8 *"
+  			sprintf(ble_data1,"\{\"Id\":\"%s\",\"TimeStamp\":\"%s\"\}",RFid,timestamp);
+  			        ^
+"ble.c", line 104: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  			memcpy(Previous_RFid,RFid,strlen(RFid));						
+  			                                 ^
+"ble.c", line 105: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+  			push_Data(ble_data1, RFid);
+  			          ^
+"ble.c", line 105: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+  			push_Data(ble_data1, RFid);
+  			                     ^
+"ble.c", line 107: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  		else if(strcmp(Previous_RFid,RFid) != 0){
+  		               ^
+"ble.c", line 107: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  		else if(strcmp(Previous_RFid,RFid) != 0){
+  		                             ^
+"ble.c", line 111: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  			memcpy(Previous_RFid,RFid,strlen(RFid));
+  			                                 ^
+"ble.c", line 112: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+  			push_Data(ble_data1, RFid);
+  			          ^
+"ble.c", line 112: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+  			push_Data(ble_data1, RFid);
+  			                     ^
+"ble.c", line 131: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  	if(strlen(ptr) == 0)
+  	          ^
+"ble.c", line 137: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "S8 *"
+  		strcat(server_dat_buf,loc_ble);
+  		       ^
+"ble.c", line 137: Warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const S8 *"
+  		strcat(server_dat_buf,loc_ble);
+  		                      ^
+"ble.c", line 143: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+  		if(strstr(server_dat_buf, id) == NULL){
+  		          ^
+"ble.c", line 147: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "const S8 *"
+  			server_dat_buf[strlen(server_dat_buf)]=',';
+  			                      ^
+"ble.c", line 148: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "S8 *"
+  			strcat(server_dat_buf,loc_ble);
+  			       ^
+"ble.c", line 148: Warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const S8 *"
+  			strcat(server_dat_buf,loc_ble);
+  			                      ^
+"ble.c", line 158: Warning:  #940-D: missing return statement at end of non-void function "push_Data"
+  }
+  ^
+"ble.c", line 167: Warning:  #192-D: unrecognized character escape sequence
+  	sprintf(loc_ble,"\{ \"data\":\[ %s \] \}\r",server_dat_buf);
+  	                 ^
+"ble.c", line 167: Warning:  #192-D: unrecognized character escape sequence
+  	sprintf(loc_ble,"\{ \"data\":\[ %s \] \}\r",server_dat_buf);
+  	                             ^
+"ble.c", line 167: Warning:  #192-D: unrecognized character escape sequence
+  	sprintf(loc_ble,"\{ \"data\":\[ %s \] \}\r",server_dat_buf);
+  	                                   ^
+"ble.c", line 167: Warning:  #192-D: unrecognized character escape sequence
+  	sprintf(loc_ble,"\{ \"data\":\[ %s \] \}\r",server_dat_buf);
+  	                                      ^
+"ble.c", line 167: Warning:  #167-D: argument of type "char *" is incompatible with parameter of type "S8 *"
+  	sprintf(loc_ble,"\{ \"data\":\[ %s \] \}\r",server_dat_buf);
+  	        ^
+"ble.c", line 171: Warning:  #940-D: missing return statement at end of non-void function "get_push_Data"
+  }
+  ^
+ble.c: 31 warnings, 0 errors
+"fota.c", line 57: Warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "S8 *"
+  			    sprintf(app_version,"\"app_version\":\"%s\"", app_ver);
+  			            ^
+fota.c: 1 warning, 0 errors
+Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Finished: 0 information, 1 warning and 0 error messages.

@@ -1,0 +1,3 @@
+---- NEOWAY_UPDATE_FAILE Matches (2 in 2 files) ----
+example_helloWorld.c (example):	   case NEOWAY_UPDATE_FAILE:
+Neoway_openplatform.h (neowayinc):	NEOWAY_UPDATE_FAILE,////
